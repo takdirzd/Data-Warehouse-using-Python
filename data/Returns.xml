@@ -1,0 +1,2611 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+    xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:html="http://www.w3.org/TR/REC-html40">
+    <documentproperties xmlns="urn:schemas-microsoft-com:office:office">
+        <author>Clara Siegel</author>
+        <lastauthor>Erwin Umar</lastauthor>
+        <created>2014-11-07T23:43:06Z</created>
+        <lastsaved>2023-11-15T12:48:09Z</lastsaved>
+        <company>Tableau Software</company>
+        <version>16.00</version>
+    </documentproperties>
+    <officedocumentsettings xmlns="urn:schemas-microsoft-com:office:office">
+        <allowpng/>
+        <colors>
+            <color>
+                <index>2</index>
+                <rgb>#DD0806</rgb>
+            </color>
+            <color>
+                <index>3</index>
+                <rgb>#1FB714</rgb>
+            </color>
+            <color>
+                <index>4</index>
+                <rgb>#0000D4</rgb>
+            </color>
+            <color>
+                <index>5</index>
+                <rgb>#FCF305</rgb>
+            </color>
+            <color>
+                <index>6</index>
+                <rgb>#F20884</rgb>
+            </color>
+            <color>
+                <index>7</index>
+                <rgb>#00ABEA</rgb>
+            </color>
+            <color>
+                <index>8</index>
+                <rgb>#900000</rgb>
+            </color>
+            <color>
+                <index>9</index>
+                <rgb>#006411</rgb>
+            </color>
+            <color>
+                <index>10</index>
+                <rgb>#000090</rgb>
+            </color>
+            <color>
+                <index>11</index>
+                <rgb>#90713A</rgb>
+            </color>
+            <color>
+                <index>12</index>
+                <rgb>#4600A5</rgb>
+            </color>
+            <color>
+                <index>16</index>
+                <rgb>#63AAFE</rgb>
+            </color>
+            <color>
+                <index>17</index>
+                <rgb>#DD2D32</rgb>
+            </color>
+            <color>
+                <index>18</index>
+                <rgb>#FFF58C</rgb>
+            </color>
+            <color>
+                <index>19</index>
+                <rgb>#4EE257</rgb>
+            </color>
+            <color>
+                <index>20</index>
+                <rgb>#6711FF</rgb>
+            </color>
+            <color>
+                <index>21</index>
+                <rgb>#FEA746</rgb>
+            </color>
+            <color>
+                <index>22</index>
+                <rgb>#865357</rgb>
+            </color>
+            <color>
+                <index>23</index>
+                <rgb>#A2BD90</rgb>
+            </color>
+            <color>
+                <index>24</index>
+                <rgb>#63AAFE</rgb>
+            </color>
+            <color>
+                <index>25</index>
+                <rgb>#DD2D32</rgb>
+            </color>
+            <color>
+                <index>26</index>
+                <rgb>#FFF58C</rgb>
+            </color>
+            <color>
+                <index>27</index>
+                <rgb>#4EE257</rgb>
+            </color>
+            <color>
+                <index>28</index>
+                <rgb>#6711FF</rgb>
+            </color>
+            <color>
+                <index>29</index>
+                <rgb>#FEA746</rgb>
+            </color>
+            <color>
+                <index>30</index>
+                <rgb>#865357</rgb>
+            </color>
+            <color>
+                <index>31</index>
+                <rgb>#A2BD90</rgb>
+            </color>
+        </colors>
+    </officedocumentsettings>
+    <excelworkbook xmlns="urn:schemas-microsoft-com:office:excel">
+        <windowheight>15840</windowheight>
+        <windowwidth>29040</windowwidth>
+        <windowtopx>32767</windowtopx>
+        <windowtopy>32767</windowtopy>
+        <tabratio>500</tabratio>
+        <protectstructure>False</protectstructure>
+        <protectwindows>False</protectwindows>
+    </excelworkbook>
+    <styles>
+        <style ss:id="Default" ss:name="Normal">
+            <alignment ss:vertical="Bottom"/>
+            <borders/>
+            <font ss:fontname="Calibri" x:family="Swiss" ss:size="12" ss:color="#000000"/>
+            <interior/>
+            <numberformat/>
+            <protection/>
+        </style>
+        <style ss:id="s16">
+            <font ss:fontname="Calibri" x:family="Swiss" ss:size="12" ss:color="#FFFFFF"/>
+            <interior ss:color="#000000" ss:pattern="Solid"/>
+        </style>
+        <style ss:id="s18">
+            <borders>
+                <border
+                    ss:position="Bottom"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+                <border
+                    ss:position="Left"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+                <border
+                    ss:position="Right"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+                <border
+                    ss:position="Top"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+            </borders>
+            <font ss:fontname="Calibri" x:family="Swiss" ss:size="12" ss:color="#FFFFFF"/>
+            <interior ss:color="#000000" ss:pattern="Solid"/>
+        </style>
+        <style ss:id="s20">
+            <borders>
+                <border
+                    ss:position="Bottom"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+                <border
+                    ss:position="Left"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+                <border
+                    ss:position="Right"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+                <border
+                    ss:position="Top"
+                    ss:linestyle="Continuous"
+                    ss:weight="1"
+                    ss:color="#FFFFFF"/>
+            </borders>
+            <font ss:fontname="Calibri" x:family="Swiss" ss:size="12" ss:color="#FFFFFF"/>
+            <interior ss:color="#0070C0" ss:pattern="Solid"/>
+        </style>
+    </styles>
+    <worksheet ss:name="Returns">
+        <table
+            ss:expandedcolumncount="256"
+            ss:expandedrowcount="297"
+            x:fullcolumns="1"
+            x:fullrows="1"
+            ss:styleid="s16"
+            ss:defaultcolumnwidth="54"
+            ss:defaultrowheight="15.75">
+            <column ss:styleid="s16" ss:width="87"/>
+            <column ss:styleid="s16" ss:autofitwidth="0" ss:width="66" ss:span="254"/>
+            <row>
+                <cell ss:styleid="s20">
+                    <data ss:type="String">Order_ID</data>
+                </cell>
+                <cell ss:styleid="s20">
+                    <data ss:type="String">Returned</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-153822</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-129707</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-152345</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-156440</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-155999</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-157924</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-131807</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-124527</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-135692</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-123225</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-145772</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2011-105137</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-101805</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-111682</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-131492</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-104129</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-117926</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-115952</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-155761</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-100111</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-156349</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-118899</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-108294</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-123834</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-168480</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-122007</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-128965</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-169397</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-168564</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-102652</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-112340</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-114727</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-151827</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-152814</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-114230</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-146486</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-116092</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-118542</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-140984</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-127306</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-119284</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-150609</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-136651</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-136539</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-110786</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-126403</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-157280</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-162138</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-114307</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-123498</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-142398</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-161956</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-134194</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-134075</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-156986</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-105578</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-131149</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-147886</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-126361</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-141929</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-145583</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-154970</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-167759</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-109085</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-142769</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-107888</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-109918</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-131618</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-109253</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-130631</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-118087</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-126732</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-144057</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-168921</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-109806</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-104829</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-147375</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-134726</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-117513</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2011-138758</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-126522</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-115994</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-138282</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-161459</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-136483</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-116547</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-130785</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-165008</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2012-137008</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-169894</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-105270</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-165330</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-111871</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-157812</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-145982</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-166142</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-127131</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-143084</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-151547</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-138674</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-169019</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-100762</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2011-164406</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-118500</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-143490</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-115427</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-124058</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-132346</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-150077</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-124401</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-137414</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-142867</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-157196</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-149342</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-112123</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-147998</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-103716</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-144267</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-109869</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-166898</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-169327</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-169859</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-137085</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-154074</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-130477</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-134775</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-105046</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-136924</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-166093</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-106950</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-145128</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-114293</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-137099</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-133319</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-103744</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-161627</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-142601</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-112144</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-164861</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2012-128090</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-108609</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-147452</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-123568</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-102519</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-121853</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-132374</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2011-150574</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-148614</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-165491</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-133802</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-112865</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-130680</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-114048</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-108931</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-136308</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-126529</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-135699</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-146255</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-140053</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-143336</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-159954</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-105291</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-158729</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-101273</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-123085</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-131828</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-113670</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-135580</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-157490</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-142888</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-153150</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-152051</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-103940</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-159345</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-162012</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-148873</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-167395</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-127425</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-142342</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-159212</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-116736</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-128671</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-112753</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-148957</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-110814</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-164721</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2012-136987</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-151372</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-151127</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2012-110569</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-153220</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-117212</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-101574</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-151323</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-166744</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-119046</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-105158</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-103380</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-161746</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-111948</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-138163</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-134201</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2012-126214</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-140816</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-133690</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-120873</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-103247</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-155712</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-108455</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-104689</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-152660</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2012-136749</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-143602</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-134803</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-139269</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-123253</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-162159</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-135720</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-159338</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-136679</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-113628</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-107825</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-160766</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-118311</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-130456</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-148950</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-119214</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-119907</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-137428</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-108861</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-130638</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-143238</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-109736</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-124688</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-133368</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-168193</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-135657</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-105081</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-154214</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-107678</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-144064</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-101700</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-113341</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-139731</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-132941</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-146262</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-115917</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-111528</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-142328</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-141593</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-121258</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-141726</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-167003</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2012-160857</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-145261</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-112725</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-145919</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-140151</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-164882</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-123491</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-127012</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-123526</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-161557</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-150875</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-150770</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2011-140452</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-149650</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-100867</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-140186</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-156391</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-157770</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-140963</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-154949</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-166275</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2011-143287</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-151162</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2014-103828</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-143840</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-160773</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-111556</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-140585</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-103373</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-159023</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-145492</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-118122</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2011-116785</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2011-164763</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-122504</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-150910</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-162166</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">US-2013-140172</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-101910</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2014-156958</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-105585</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2013-148796</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+            <row>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">CA-2012-149636</data>
+                </cell>
+                <cell ss:styleid="s18">
+                    <data ss:type="String">Yes</data>
+                </cell>
+            </row>
+        </table>
+        <worksheetoptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <print>
+                <validprinterinfo/>
+                <horizontalresolution>-4</horizontalresolution>
+                <verticalresolution>-4</verticalresolution>
+            </print>
+            <selected/>
+            <panes>
+                <pane>
+                    <number>3</number>
+                    <activerow>292</activerow>
+                    <activecol>1</activecol>
+                </pane>
+            </panes>
+            <protectobjects>False</protectobjects>
+            <protectscenarios>False</protectscenarios>
+        </worksheetoptions>
+    </worksheet>
+</workbook>

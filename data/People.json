@@ -1,0 +1,18 @@
+[
+ {
+  "Person": "Anna Andreadi",
+  "Region": "West"
+ },
+ {
+  "Person": "Chuck Magee",
+  "Region": "East"
+ },
+ {
+  "Person": "Kelly Williams",
+  "Region": "Central"
+ },
+ {
+  "Person": "Cassandra Brandow",
+  "Region": "South"
+ }
+]
