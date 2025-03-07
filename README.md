@@ -2,4 +2,4 @@ This project's subjective is develop a data warehouse system to process automate
 
 ![alt text](https://github.com/takdirzd/Data-Warehouse-Project/blob/main/overview.png)
 
-For the details, open the DATA WAREHOUSE PROJECT-1.pdf.
+For the details, open the DATA WAREHOUSE PROJECT.pdf.
