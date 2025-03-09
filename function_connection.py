@@ -1,6 +1,3 @@
-import pandas as pd
-import json
-
 import psycopg2
 
 def func_db_connect(prm_db_ssh = None,
