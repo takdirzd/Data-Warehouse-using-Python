@@ -5,7 +5,6 @@ This project's subjective is develop a data warehouse system to process automate
 For the details, open the DATA WAREHOUSE PROJECT.pdf.
 
 File .env contains =>
-
 DB_HOSTNAME = localhost
 DB_PORT = 5432
 DB_NAMES = my_db
