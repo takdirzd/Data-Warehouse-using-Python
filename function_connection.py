@@ -1,8 +1,5 @@
 import pandas as pd
 import json
-import xml.etree.ElementTree as ET
-import mysql.connector
-
 
 import psycopg2
 
