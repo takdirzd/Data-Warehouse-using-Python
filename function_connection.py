@@ -6,7 +6,7 @@ def func_db_connect(
                     prm_db_name=None,
                     prm_user=None,
                     prm_pass=None,
-                    prm_schema=None,
+                    prm_schema=None
                    ):
    
     data = [None, None, None]
