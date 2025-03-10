@@ -1,18 +1,12 @@
 import psycopg2
 
-def func_db_connect(prm_db_ssh = None,
-                    prm_db_type=None,
+def func_db_connect(
                     prm_db_host=None,
                     prm_db_port=None,
                     prm_db_name=None,
                     prm_user=None,
                     prm_pass=None,
                     prm_schema=None,
-                    prm_prv_key = None,
-                    prm_prv_pass = None,
-                    prm_ssh_ip = None,
-                    prm_ssh_port = None,
-                    prm_ssh_user = None
                    ):
    
     data = [None, None, None]
