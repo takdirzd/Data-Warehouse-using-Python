@@ -58,3 +58,4 @@ DB_SCHEMA_DWH = dwh_superstore
 PATH_TO_EXCEL = /path/to/file/Superstore.xlsx  
 PATH_TO_JSON = /path/to/file/People.json  
 PATH_TO_XML = /path/to/file/Returns.xml  
+etc..
