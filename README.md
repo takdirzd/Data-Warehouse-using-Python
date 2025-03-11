@@ -47,7 +47,7 @@ Apache Airflow orchestrates the entire pipeline, automating the ETL process and 
 
 DATA WAREHOUSE PROJECT.pdf for details.
 
-Since .env can't upload, here what it contains =>  
+Since .env can't upload, here is what it contains =>  
 DB_HOSTNAME = (host name or localhost)  
 DB_PORT = (port)  
 DB_NAMES = (db_name)  
