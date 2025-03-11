@@ -45,7 +45,7 @@ This diagram represents the ETL (Extract, Transform, Load) data pipeline using A
 
 Apache Airflow orchestrates the entire pipeline, automating the ETL process and scheduling from data integration to cloud storage.
 
-For the details, open the DATA WAREHOUSE PROJECT.pdf.
+DATA WAREHOUSE PROJECT.pdf for details.
 
 Since .env can't upload, here what it contains =>  
 DB_HOSTNAME = (host name or localhost)  
