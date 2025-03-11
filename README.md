@@ -28,7 +28,7 @@ This diagram represents the ETL (Extract, Transform, Load) data pipeline using A
         Excel (Superstore)
         JSON (Person)
         XML (Returns)
-    - Data is extracted using Python scripts.
+    - Data is imported to staging using Python scripts.
 
 + STAGING
     - Data is temporarily stored in PostgreSQL before transformation.
