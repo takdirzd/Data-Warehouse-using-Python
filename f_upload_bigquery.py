@@ -32,9 +32,8 @@ def upload_to_dwh_cloud(
         # Ambil nama kolom
         column_names = [desc[0] for desc in prm_CURSOR_DWH.description]
 
-        # Konversi ke DataFrame
+        # Ubah ke DataFrame
         df = pd.DataFrame(rows, columns=column_names)
-
 
         # Konfigurasi job untuk upload ke BigQuery
         job_config = bigquery.LoadJobConfig(
